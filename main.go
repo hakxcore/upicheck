@@ -11,6 +11,19 @@ import (
 )
 
 func main() {
+
+    err := godotenv.Load()
+    if err != nil {
+    fmt.Println("Error loading .env file")
+    return
+    }
+
+    apiKey := os.Getenv("API_KEY")
+    if apiKey == "" {
+    fmt.Println("API_KEY is missing from .env file")
+    return
+    }
+
     args := os.Args[1:]
 
     if len(args) == 0 {
@@ -35,7 +48,7 @@ func main() {
         }
 
         req.Header.Add("content-type", "application/json")
-        req.Header.Add("X-RapidAPI-Key", "c000ed73b0mshff09c4300bb8321p1868c8jsnf62e563e71b7")
+	req.Header.Add("X-RapidAPI-Key", apiKey)
         req.Header.Add("X-RapidAPI-Host", "upi-verification.p.rapidapi.com")
 
         res, err := http.DefaultClient.Do(req)

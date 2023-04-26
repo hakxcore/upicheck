@@ -9,7 +9,7 @@ upicheck will return upi ids for a phone number
 - [ ] Go on [this](https://rapidapi.com/idfy-idfy-default/api/upi-verification) link
     - register yourself
     - login and get you api-key
-    - add your api key in `.env` file as shown in image
+    - add your api key in `.env` file.
 
 </br>
 </br>

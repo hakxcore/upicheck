@@ -9,7 +9,7 @@ UPI ID checker for a phone number
 - [ ] Go on [this](https://rapidapi.com/idfy-idfy-default/api/upi-verification) link
     - register yourself
     - login and get you api-key
-    - add you api key in `.env` file as shown in image
+    - add your api key in `.env` file as shown in image
 
 </br>
 </br>

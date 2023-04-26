@@ -8,6 +8,7 @@ import (
     "net/http"
     "os"
     "strings"
+    "github.com/joho/godotenv"
 )
 
 func main() {
@@ -74,7 +75,7 @@ func main() {
         }
 
         // print the JSON data as a string
-        fmt.Println(vpa, ":", buf.String())
+        fmt.Println(buf.String())
     }
 }
 

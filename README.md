@@ -1,11 +1,11 @@
 # upi-check
 UPI ID checker for a phone number
 
-#USAGE
+# USAGE
 
 On Command line use 
 
 ```
-	go build
-	./upicheck <your-phone-number>
+go build
+./upicheck <your-phone-number>
 ```

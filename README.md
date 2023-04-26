@@ -1,5 +1,5 @@
 # upicheck
-UPI ID checker for a phone number
+upicheck will return upi ids for a phone number
 </br>
 </br>
 

@@ -14,7 +14,7 @@ func main() {
     args := os.Args[1:]
 
     if len(args) == 0 {
-        fmt.Println("Usage: go run main.go <phone number>")
+        fmt.Println("Usage: ./upicheck <phone number>")
         return
     }
 
